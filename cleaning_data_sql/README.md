@@ -12,7 +12,8 @@
 | stock_location      | Nominal    | Warehouse origin: A, B, C, or D.                                                                          | Replace with "Unknown"                 |
 
 
-´´´SELECT product_id,
+´´´
+SELECT product_id,
 
 CASE
 WHEN product_type IS NULL OR product_type::TEXT = '' OR product_type::TEXT = ' ' OR product_type::TEXT = '-'
@@ -74,4 +75,5 @@ THEN 'Unknown'
 ELSE UPPER(stock_location)::TEXT
 END AS stock_location
 
-FROM products´´´
+FROM products
+´´´
