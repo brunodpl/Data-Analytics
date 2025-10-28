@@ -1,5 +1,5 @@
 # Bruno`s Projects
-
+## https://brunodpl.github.io/Data-Analytics/
 ### I am a Data Analyst in continuous development, and a future Data Scientist, passionate about problem-solving and efficiency.
 ### I am fully bilingual thanks to having lived in places like Texas and Reykjavík.
 ### I have a technical background in web application development, which provided me with skills that are now deeply ingrained.
