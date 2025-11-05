@@ -25,7 +25,7 @@ I have worked in both technical environments and high-paced operations; a clear 
 ### ⚡ Nuclear Energy Consumption Analysis
 
 #### 🌍 [Nuclear Energy Consumption Project](./Consumo%20energía%20nuclear)
-**Carpeta:** [`Consumo energía nuclear`](./Consumo_energía_nuclear)
+**Carpeta:** [`Consumo energía nuclear`](./Consumo%20energía%20nuclear)
 
 📌 **Description:** Analysis of global nuclear energy consumption patterns and trends. This project explores energy data to understand nuclear power usage across different regions and time periods.
 
