@@ -19,8 +19,7 @@
 
 ### 📦 Estructura del proyecto
 
-- <b>data/raw:</b> Datos originales
-- <b>data/processed:</b> Datos limpios
-- <b>notebooks:</b> Exploración, limpieza, análisis y visualizaciones
-- <b>src:</b> Scripts de carga y modelado
-- <b>reports:</b> Reportes y tablas resumen
+- <b>owid-energy-data.csv</b> Datos originales
+- <b>datos_nuclear.csv</b> Datos limpios
+- <b>global_nuclear_energy y EDA_nuclear.ipynb</b> Exploración, limpieza, análisis y visualizaciones
+- <b>Report.pdf</b> Reportes y tablas resumen
