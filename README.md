@@ -29,8 +29,6 @@ I have worked in both technical environments and high-paced operations; a clear 
 
 📌 **Description:** Analysis of global nuclear energy consumption patterns and trends. This project explores energy data to understand nuclear power usage across different regions and time periods.
 
-🔗 **Explore Project:** [Consumo energía nuclear folder](./Consumo_energía_nuclear)
-
 ---
 
 ## 🛠️ Skills & Technologies
