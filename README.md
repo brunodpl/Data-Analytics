@@ -1,7 +1,5 @@
 # 👨‍💻 Bruno's Data Analytics Portfolio
 
-## 🌐 [Visit My Portfolio Website](https://brunodpl.github.io/Data-Analytics/)
-
 ---
 
 ## 📊 About Me
@@ -22,27 +20,16 @@ I have worked in both technical environments and high-paced operations; a clear 
 
 ## 🗂️ Projects
 
-### 🧹 Data Cleaning Projects
-
-This section showcases my data cleaning and processing skills using SQL and Python.
-
-#### 📓 [Supermarket Data Cleaning & Analysis](./cleaning_data_sql/notebook.ipynb)
-**Carpeta:** [`cleaning_data_sql`](./cleaning_data_sql)
-
-📌 **Description:** Complete data cleaning and initial analysis of supermarket data using SQL techniques. This project demonstrates data quality improvement, handling missing values, and preparing datasets for analysis.
-
-🔗 **View Notebook:** [notebook.ipynb](./cleaning_data_sql/notebook.ipynb)
-
 ---
 
 ### ⚡ Nuclear Energy Consumption Analysis
 
 #### 🌍 [Nuclear Energy Consumption Project](./Consumo%20energía%20nuclear)
-**Carpeta:** [`Consumo energía nuclear`](./Consumo%20energía%20nuclear)
+**Carpeta:** [`Consumo energía nuclear`](./Consumo_energía_nuclear)
 
 📌 **Description:** Analysis of global nuclear energy consumption patterns and trends. This project explores energy data to understand nuclear power usage across different regions and time periods.
 
-🔗 **Explore Project:** [Consumo energía nuclear folder](./Consumo%20energía%20nuclear)
+🔗 **Explore Project:** [Consumo energía nuclear folder](./Consumo_energía_nuclear)
 
 ---
 
@@ -55,5 +42,13 @@ This section showcases my data cleaning and processing skills using SQL and Pyth
 - 🌐 **Web Development:** Technical development background
 
 ---
+### 🧹 Data Cleaning Projects
+
+This section showcases my data cleaning and processing skills using SQL and Python.
+
+#### 📓 [Supermarket Data Cleaning & Analysis](./cleaning_data_sql/README.md)
+**Carpeta:** [`cleaning_data_sql`](./cleaning_data_sql)
+
+📌 **Description:** Complete data cleaning and initial analysis of supermarket data using SQL techniques. This project demonstrates data quality improvement, handling missing values, and preparing datasets for analysis.
 
 *Last updated: 2025*
