@@ -24,7 +24,7 @@ I have worked in both technical environments and high-paced operations; a clear 
 
 ### ⚡ Nuclear Energy Consumption Analysis
 
-#### 🌍 [Nuclear Energy Consumption Project](./Consumo%20energía%20nuclear)
+#### 🌍 [Nuclear Energy Consumption Project](././nuclear_energy_consumption)
 
 📌 **Description:** Analysis of global nuclear energy consumption patterns and trends. This project explores energy data to understand nuclear power usage across different regions and time periods.
 
@@ -33,7 +33,7 @@ I have worked in both technical environments and high-paced operations; a clear 
 
 This section showcases my data cleaning and processing skills using SQL and Python.
 
-#### 📓 [Supermarket Data Cleaning & Analysis](./cleaning_data_sql/README.md)
+#### 📓 [Supermarket Data Cleaning & Analysis](././data_cleaning_sql/README.md)
 
 📌 **Description:** Complete data cleaning and initial analysis of supermarket data using SQL techniques. This project demonstrates data quality improvement, handling missing values, and preparing datasets for analysis.
 
