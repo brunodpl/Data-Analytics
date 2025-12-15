@@ -1,5 +1,4 @@
-
-  ![GitHub](https://img.shields.io/badge/GitHub-brunodpl-181717?style=for-the-badge&logo=github)
+![GitHub](https://img.shields.io/badge/GitHub-brunodpl-181717?style=for-the-badge&logo=github)
   **[GITHUB](https://github.com/brunodpl)**
 
   ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)
@@ -37,24 +36,29 @@ Comprehensive SQL-based exploratory analysis of Apple retail store performance a
 
 ---
 
-### 📦 Easy Stock - Warehouse Management System
-**[View Project](https://github.com/brunodpl/easy_stock)** | `Full-Stack` `JavaScript` `Node.js` `Voice Control`
+### 🛡️ P2P Exchange Integrity Monitor - DEX Analytics Speedrun
+**[View Project](https://github.com/brunodpl/dex_crypto_market_integrity_speedrun)** | `Python` `Blockchain` `Machine Learning` `Time Series`
 
-Intelligent inventory management system designed for SMEs, featuring voice control, automated alerts, and real-time KPI tracking.
+Analytics Proof of Concept built in **under 4 hours** for blockchain P2P exchange market surveillance. Demonstrates rapid prototyping skills and data-driven approach to crypto market analysis.
 
 **Key Features:**
-- 🎤 Voice-controlled interface using Web Speech API
-- 📊 Real-time dashboard with critical KPIs and warehouse health metrics
-- 🚨 Automated priority-based alert system (expiration, stock levels, location tracking)
-- 📱 PWA-ready responsive design optimized for mobile and desktop
-- ⚡ Performance-optimized with vanilla JavaScript (no heavy frameworks)
+- 🚨 **Real-Time Anomaly Detection** | Automated monitoring for wash trading and price manipulation (>10% spread alerts)
+- 📈 **Liquidity Forecasting Model** | Prophet-based time series prediction for market maker optimization
+- 🔍 **Risk Clustering** | Successfully identified 3 distinct behavior clusters in P2P offer data
+- ⚡ **Rapid Development** | Full MVP from concept to visualization in single afternoon session
 
-**Technologies:** Node.js, Express, Vanilla JavaScript, Web Speech API, PWA, HTML5, CSS3
+**Technical Implementation:**
+- Synthetic data generation with realistic anomaly injection
+- Spread analysis between P2P offers and global reference prices (Binance/CoinGecko)
+- Time-series forecasting with Facebook Prophet for volatility prediction
+- Scalable architecture ready for XGBoost upgrade with on-chain features
 
-**Future Roadmap:**
-- ML-based demand prediction and stock optimization
-- AI-powered CSV processing for data validation
-- Integration with LLM APIs for intelligent error correction
+**Technologies:** Python, Pandas, Prophet, yfinance, scikit-learn, Seaborn, Matplotlib
+
+**Business Impact:**
+- Enhanced platform safety through automated scam detection
+- Proactive liquidity management to reduce failed trades
+- Data-driven insights for blockchain market integrity
 
 ---
 
@@ -103,7 +107,7 @@ Complete data cleaning and initial analysis of supermarket data using advanced S
 - 📈 **Business Intelligence** | KPI Tracking, Dashboard Design, Reporting
 - 💼 **Project Management** | Team Leadership, Operations Optimization
 - 🌐 **Full-Stack Development** | Web Applications, APIs, Database Design
-- 🎤 **Innovation** | Voice Interfaces, PWAs, Accessibility
+- 🔗 **Blockchain Analytics** | P2P Markets, Anomaly Detection, Crypto Forecasting
 
 ---
 
@@ -127,6 +131,7 @@ Complete data cleaning and initial analysis of supermarket data using advanced S
 [![GitHub](https://img.shields.io/badge/GitHub-brunodpl-181717?style=for-the-badge&logo=github)](https://github.com/brunodpl)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/brunodelpalaciorodriguez/)
 
-*Portfolio last updated: November 2025*
+*Portfolio last updated: December 2025*
 
 **⭐ Star my repositories if you find them interesting!**
+
