@@ -21,8 +21,8 @@
 
 ## 🚀 Featured Projects
 
-🤖 Next Best Action (NBA) CRM Engine
-View Project | Python SQL (DuckDB) Data Engineering CRM Automation
+### 🤖 Next Best Action (NBA) CRM Engine
+**[View Project](https://github.com/brunodpl/Next-Best-Action-CRM-Engine)** | `Python` `SQL (DuckDB)` `Data Engineering` `CRM Automation`
 
 End-to-end simulation of a modern Retail CRM architecture designed to solve data fragmentation. Ingests and unifies "dirty" raw data from disparate sources (Salesforce, ERP/POS, Google Analytics) to build a Single Customer View and orchestrate high-value marketing actions.​
 
