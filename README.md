@@ -21,6 +21,21 @@
 
 ## 🚀 Featured Projects
 
+🤖 Next Best Action (NBA) CRM Engine
+View Project | Python SQL (DuckDB) Data Engineering CRM Automation
+
+End-to-end simulation of a modern Retail CRM architecture designed to solve data fragmentation. Ingests and unifies "dirty" raw data from disparate sources (Salesforce, ERP/POS, Google Analytics) to build a Single Customer View and orchestrate high-value marketing actions.​
+
+**Key Features**:
+🧩 Advanced Identity Resolution | implemented complex SQL logic in DuckDB to merge anonymous web traffic with identified transactional data.
+⚙️ High-Performance ETL | Performed heavy feature engineering (RFM metrics, churn risk, cart abandonment) directly in SQL, achieving 10x performance vs standard Pandas workflows.
+🧠 Business Logic Layer | Applied "Next Best Action" rules on top of propensity scoring to optimize ROI (e.g., managing stock urgency vs. margin preservation).
+🛡️ Production-Grade Handling | Specifically designed to handle realistic data quality issues (timezone mismatches, duplicates, NULL keys) often found in enterprise environments.
+
+**Technologies**: Python, DuckDB, SQL, Pandas, ETL Pipelines, Marketing Automation logic
+
+---
+
 ### 🍎 Apple Retail Sales Analysis
 **[View Project](https://github.com/brunodpl/apple_retail_sql_project)** | `SQL` `Data Analysis` `EDA`
 
