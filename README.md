@@ -4,149 +4,173 @@
   ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)
   **[LINKEDIN](https://www.linkedin.com/in/brunodelpalaciorodriguez/)**
 
+<!-- ========================= -->
+<!-- GitHub Pages Portfolio    -->
+<!-- Repo: brunodpl/Data-Analytics -->
+<!-- ========================= -->
 
-## 🎯 About Me
+# Bruno del Palacio Rodríguez — Data Analyst / BI / Dev
 
-> Passionate **Data Analyst** with a unique blend of technical expertise and leadership experience, committed to transforming data into actionable insights.
-
-### 🌟 Professional Highlights
-
-- 📊 **Data-Driven Decision Maker** | Specialized in SQL, Python, and data visualization
-- 🌍 **Bilingual Professional** | Fluent in English and Spanish (lived in Texas & Reykjavík)
-- 💻 **Technical Foundation** | Background in web application development with full-stack capabilities
-- 🏆 **Proven Leader** | Former Manager at Domino's Pizza Iceland, implementing logistics optimization and cost reduction initiatives
-- 🔄 **Operations Expert** | Experience in high-paced environments, team management, and process improvement
+Transformo operaciones y datos en decisiones accionables (KPIs, automatización y productos data-driven).
 
 ---
 
-## 🚀 Featured Projects
+## Qué aporto (valor real)
 
-### 🤖 Next Best Action (NBA) CRM Engine
-**[View Project](https://github.com/brunodpl/Next-Best-Action-CRM-Engine)** | `Python` `SQL (DuckDB)` `Data Engineering` `CRM Automation`
+- **Analítica aplicada al negocio**: convierto “problemas operativos” en métricas, hipótesis y mejoras medibles.
+- **SQL + BI fuertes**: modelos, consultas complejas y dashboards orientados a decisión.
+- **Mentalidad builder**: cuando hace falta, lo convierto en producto (apps, automatización, integraciones).
 
-End-to-end simulation of a modern Retail CRM architecture designed to solve data fragmentation. Ingests and unifies "dirty" raw data from disparate sources (Salesforce, ERP/POS, Google Analytics) to build a Single Customer View and orchestrate high-value marketing actions.​
-
-**Key Features**:
-🧩 Advanced Identity Resolution | implemented complex SQL logic in DuckDB to merge anonymous web traffic with identified transactional data.
-⚙️ High-Performance ETL | Performed heavy feature engineering (RFM metrics, churn risk, cart abandonment) directly in SQL, achieving 10x performance vs standard Pandas workflows.
-🧠 Business Logic Layer | Applied "Next Best Action" rules on top of propensity scoring to optimize ROI (e.g., managing stock urgency vs. margin preservation).
-🛡️ Production-Grade Handling | Specifically designed to handle realistic data quality issues (timezone mismatches, duplicates, NULL keys) often found in enterprise environments.
-
-**Technologies**: Python, DuckDB, SQL, Pandas, ETL Pipelines, Marketing Automation logic
+> Ubicación objetivo: A Coruña (Galicia) · Idiomas: Español / Inglés
 
 ---
 
-### 🍎 Apple Retail Sales Analysis
-**[View Project](https://github.com/brunodpl/apple_retail_sql_project)** | `SQL` `Data Analysis` `EDA`
+## 🚀 Proyectos Destacados
 
-Comprehensive SQL-based exploratory analysis of Apple retail store performance across global locations. Identified key success factors and revenue patterns through data-driven insights.
+### 🤖 Next Best Action (CRM Engine)
+**[Ver Proyecto](https://github.com/brunodpl/Next-Best-Action-CRM-Engine)** | `Python` `SQL (DuckDB)` `ETL` `Data Engineering`
 
-**Key Achievements:**
-- Analyzed sales patterns across 100+ stores worldwide
-- Discovered that accessories generate more revenue than iPhones in top-performing stores
-- Identified that success correlates with sales volume, not product mix
-- Calculated warranty claim ratios and premium product distribution
+Motor CRM diseñado para resolver la fragmentación de datos en entornos retail. Unifica fuentes heterogéneas (Salesforce, ERP/POS, Google Analytics) en una Single Customer View y orquesta acciones de marketing de alto valor mediante reglas de negocio automatizadas.
 
-**Technologies:** PostgreSQL, SQL, Data Analysis, Business Intelligence
+**Qué resuelve:**
+- **Identity Resolution avanzada**: SQL complejo en DuckDB para fusionar tráfico web anónimo con datos transaccionales identificados.
+- **ETL de alto rendimiento**: feature engineering (métricas RFM, riesgo de churn, abandono de carrito) directamente en SQL, logrando 10x mejor performance vs. flujos Pandas tradicionales.
+- **Capa de lógica de negocio**: reglas de "Next Best Action" sobre scoring de propensión para optimizar ROI (gestión de urgencia de stock vs. preservación de margen).
+- **Gestión realista de calidad**: diseñado específicamente para manejar problemas típicos de entornos enterprise (desajustes de timezone, duplicados, claves NULL).
+
+**Stack técnico**: Python, DuckDB, SQL, Pandas, Pipelines ETL, Lógica de automatización de marketing
+
+**Valor demostrado**: capacidad para diseñar arquitecturas de datos end-to-end que unifican silos y generan acciones automáticas basadas en datos limpios y enriquecidos.
 
 ---
 
-### 🛡️ P2P Exchange Integrity Monitor - DEX Analytics Speedrun
-**[View Project](https://github.com/brunodpl/dex_crypto_market_integrity_speedrun)** | `Python` `Blockchain` `Machine Learning` `Time Series`
+### 📦 EasyStock (SaaS Multi-Tenant para Gestión de Inventario)
+**Repositorio privado** | `Next.js 15` `Supabase` `PostgreSQL` `TypeScript` `n8n` `OpenAI APIs`
 
-Analytics Proof of Concept built in **under 4 hours** for blockchain P2P exchange market surveillance. Demonstrates rapid prototyping skills and data-driven approach to crypto market analysis.
+Plataforma SaaS que digitaliza operaciones de inventario para PyMEs, con enfoque en automatización voice-first y seguridad enterprise-grade.
 
-**Key Features:**
-- 🚨 **Real-Time Anomaly Detection** | Automated monitoring for wash trading and price manipulation (>10% spread alerts)
-- 📈 **Liquidity Forecasting Model** | Prophet-based time series prediction for market maker optimization
-- 🔍 **Risk Clustering** | Successfully identified 3 distinct behavior clusters in P2P offer data
-- ⚡ **Rapid Development** | Full MVP from concept to visualization in single afternoon session
+**Qué resuelve:**
+- **Automatización de entrada de datos**: comandos de voz (OpenAI Whisper) + OCR inteligente (GPT-4 Vision) reducen la captura manual en un 95%.
+- **Aislamiento de datos nivel bancario**: arquitectura multi-tenant con Row-Level Security (RLS) en PostgreSQL, garantizando que cada cliente solo acceda a sus propios datos.
+- **Workflows automáticos**: integración con n8n para orquestar alertas, reposiciones y sincronización con ERPs externos sin intervención manual.
+- **Escalabilidad elástica**: diseño serverless (Supabase Edge Functions + Next.js) que permite pasar de 1 a miles de tenants sin reconfiguración.
 
-**Technical Implementation:**
-- Synthetic data generation with realistic anomaly injection
-- Spread analysis between P2P offers and global reference prices (Binance/CoinGecko)
-- Time-series forecasting with Facebook Prophet for volatility prediction
-- Scalable architecture ready for XGBoost upgrade with on-chain features
+**Características destacadas**:
+- Dashboard operativo con health scoring (0-100) del estado del almacén
+- Sistema de alertas multinivel (críticas/atención/informativas)
+- Procesamiento de documentos: albaranes → OCR → validación → inserción automática en BD
+- Interface minimalista orientada a flujos de 3 clics o menos
 
-**Technologies:** Python, Pandas, Prophet, yfinance, scikit-learn, Seaborn, Matplotlib
+**Stack técnico**: Next.js 15 (App Router), React 19, Supabase (PostgreSQL + Realtime), TypeScript, TailwindCSS, n8n, OpenAI Whisper/GPT-4 Vision
 
-**Business Impact:**
-- Enhanced platform safety through automated scam detection
-- Proactive liquidity management to reduce failed trades
-- Data-driven insights for blockchain market integrity
+**Valor demostrado**: capacidad full-stack para construir productos SaaS complejos con foco en arquitectura segura, UX accesible y automatización inteligente. El proyecto muestra comprensión de multi-tenancy, integración de IA aplicada y monetización SaaS.
+
+*(Demo disponible bajo solicitud)*
+
+---
+
+### 🍎 Apple Retail SQL Analysis
+**[Ver Proyecto](https://github.com/brunodpl/apple_retail_sql_project)** | `SQL` `PostgreSQL` `Business Intelligence`
+
+Análisis exploratorio exhaustivo de rendimiento de tiendas retail Apple a nivel global, utilizando exclusivamente SQL para extraer insights accionables.
+
+**Qué resuelve:**
+- **Identificación de patrones de éxito**: análisis de 100+ tiendas worldwide para descubrir qué factores correlacionan con alto rendimiento.
+- **Insights contraintuitivos**: los accesorios generan más revenue que iPhones en las tiendas top-performing; el éxito se correlaciona con volumen de ventas, no con mix de productos.
+- **KPIs operacionales**: cálculo de ratios de reclamación de garantía, distribución de productos premium, rotación de inventario.
+- **SQL avanzado**: uso de CTEs, window functions, agregaciones complejas y subconsultas para responder preguntas de negocio sin herramientas externas.
+
+**Stack técnico**: PostgreSQL, SQL puro, Análisis exploratorio de datos
+
+**Valor demostrado**: dominio de SQL como herramienta de análisis end-to-end, capacidad para traducir preguntas de negocio en queries complejos y extraer insights sin dependencias de BI tools.
+
+---
+
+### 🛡️ DEX Market Integrity (Speedrun Analytics POC)
+**[Ver Proyecto](https://github.com/brunodpl/dex_crypto_market_integrity_speedrun)** | `Python` `Machine Learning` `Time Series` `Forecasting`
+
+Proof of Concept desarrollado en **menos de 4 horas** para vigilancia de mercados P2P descentralizados. Demuestra capacidad de prototipado rápido y pensamiento analítico bajo presión.
+
+**Qué resuelve:**
+- **Detección de anomalías en tiempo real**: monitoreo automatizado para wash trading y manipulación de precios (alertas cuando spread > 10%).
+- **Forecasting de liquidez**: modelo basado en Prophet para predecir volatilidad y optimizar estrategias de market making.
+- **Clustering de riesgos**: identificación de 3 clusters de comportamiento distintos en ofertas P2P mediante ML no supervisado.
+- **Desarrollo ultrarrápido**: MVP completo desde concepto hasta visualización en una sesión de trabajo.
+
+**Implementación técnica**:
+- Generación de datos sintéticos con inyección realista de anomalías
+- Análisis de spread entre ofertas P2P y precios de referencia globales (Binance/CoinGecko)
+- Forecasting de series temporales con Facebook Prophet para predicción de volatilidad
+- Arquitectura escalable preparada para upgrade con XGBoost + features on-chain
+
+**Stack técnico**: Python, Pandas, Prophet, yfinance, scikit-learn, Seaborn, Matplotlib
+
+**Valor demostrado**: capacidad de ejecutar análisis completo end-to-end en timeframe reducido, pensamiento crítico para diseño de features relevantes, y habilidad para comunicar insights técnicos mediante visualizaciones.
 
 ---
 
 ### ⚡ Nuclear Energy Consumption Analysis
-**[View Project](https://github.com/brunodpl/nuclear_energy_consumption)** | `Python` `Data Science` `Jupyter`
+**[Ver Proyecto](https://github.com/brunodpl/nuclear_energy_consumption)** | `Python` `Jupyter` `EDA` `Data Visualization`
 
-Analysis of global nuclear energy consumption patterns and trends. Explores energy data to understand nuclear power usage across different regions and time periods.
+Análisis exploratorio de patrones globales de consumo de energía nuclear, con foco en tendencias temporales y comparativas regionales.
 
-**Technologies:** Python, Pandas, Jupyter Notebooks, Data Visualization
+**Qué resuelve:**
+- **Análisis de series temporales**: evolución del consumo nuclear por región a lo largo de décadas.
+- **Comparativas geográficas**: identificación de países líderes y análisis de dependencia energética.
+- **Storytelling con datos**: transformación de datasets complejos en narrativas visuales comprensibles.
+- **Documentación técnica**: notebooks Jupyter bien estructurados que combinan código, análisis y explicaciones.
 
----
+**Stack técnico**: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebooks
 
-### 🧹 Supermarket Data Cleaning & Analysis
-**[View Project](https://github.com/brunodpl/cleaning_data_sql)** | `SQL` `Data Cleaning` `ETL`
-
-Complete data cleaning and initial analysis of supermarket data using advanced SQL techniques. Demonstrates data quality improvement, handling missing values, and preparing datasets for analysis.
-
-**Key Skills Demonstrated:**
-- ETL process design and implementation
-- Data validation and quality assurance
-- SQL optimization techniques
-- Handling missing and inconsistent data
-
-**Technologies:** SQL, Data Cleaning, ETL Processes
+**Valor demostrado**: capacidad para realizar análisis exploratorio exhaustivo, crear visualizaciones efectivas y comunicar hallazgos de manera clara. Demuestra pensamiento crítico aplicado a datos del mundo real.
 
 ---
 
-## 🛠️ Technical Skills
+## Skills (en el día a día)
 
-### Data Analysis & Visualization
-![SQL](https://img.shields.io/badge/SQL-Advanced-4479A1?style=flat-square&logo=postgresql)
-![Python](https://img.shields.io/badge/Python-Proficient-3776AB?style=flat-square&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=flat-square&logo=pandas)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=flat-square&logo=jupyter)
+**Data / BI**
+- SQL (PostgreSQL / Snowflake): modelado, CTEs, ventanas, calidad de datos.
+- Power BI: modelado, KPIs, dashboards para negocio.
+- Python: EDA, limpieza, features, ML básico.
 
-### Development & Tools
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=node.js)
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git)
-![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=flat-square&logo=css3)
-
-### Core Competencies
-- 📊 **Data Analysis & Insights** | SQL, Python, Statistical Analysis
-- 🧹 **Data Engineering** | ETL Processes, Data Cleaning, Data Validation
-- 📈 **Business Intelligence** | KPI Tracking, Dashboard Design, Reporting
-- 💼 **Project Management** | Team Leadership, Operations Optimization
-- 🌐 **Full-Stack Development** | Web Applications, APIs, Database Design
-- 🔗 **Blockchain Analytics** | P2P Markets, Anomaly Detection, Crypto Forecasting
+**Producto / Dev**
+- Next.js / React / TypeScript (cuando el entregable es una app).
+- Supabase / PostgreSQL (incl. políticas tipo RLS en contextos multi-tenant).
+- Automatización con n8n (workflows y conectores).
 
 ---
+## 🛠️ Stack Técnico
 
-## 📈 Professional Experience
+### Data & Analytics
+![SQL](https://img.shields.io/badge/SQL-Advanced-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel_VBA-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
-### Manager | Domino's Pizza Iceland
-**Leadership & Operations Excellence**
+### Development
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Java Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
-- Led complete store operations including logistics optimization and cost reduction
-- Implemented custom initiatives for inventory management and process improvement
-- Managed team recruitment, training, and daily operations
-- Achieved operational efficiency through data-driven decision making
+### Data Engineering & MLOps
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
 
----
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
-## 📫 Get In Touch
-
-**Let's connect and discuss how data can drive your business forward!**
+## Contacto
 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brunoisdpl@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-brunodpl-181717?style=for-the-badge&logo=github)](https://github.com/brunodpl)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/brunodelpalaciorodriguez/)
 
-*Portfolio last updated: December 2025*
-
-**⭐ Star my repositories if you find them interesting!**
 
